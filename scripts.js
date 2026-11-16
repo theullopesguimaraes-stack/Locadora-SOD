@@ -1,4 +1,3 @@
-
 function ModoEscuro() {
     document.body.classList.toggle("escuro");
 }
@@ -222,4 +221,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 });
-card.append(imagem, titulo, classificacao, editar, remover);

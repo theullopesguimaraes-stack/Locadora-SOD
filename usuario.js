@@ -1,4 +1,3 @@
-
 function ModoEscuro() {
     document.body.classList.toggle("escuro");
 }

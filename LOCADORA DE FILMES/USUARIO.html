@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora SOD - Usuário</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./usuario.js" defer></script>
+</head>
+<body>
+    <main>
+        <button class="darkmode" type="button" onclick="ModoEscuro()">Modo escuro</button>
+        <h1>Locadora SOD</h1>
+        <br><br>
+        <nav>
+            <a href="LOCADORA.html" class="link">Página do Funcionário</a>
+            <a href="USUARIO.html" class="link">Página do Usuário</a>
+        </nav>
+        <h2 class="titulo-catalogo">Catálogo de Filmes</h2>
+        <div class="linhasUsuario" id="catalogoFilmes">
+        </div>
+    </main>
+    <div id="modalDetalhes" class="janela-detalhes">
+        <div class="conteudo-detalhes">
+            <button class="fechar-detalhes" onclick="FecharDetalhes()">&times;</button>
+            <img id="detalheFoto" src="" alt="Capa do filme">
+            <div class="informacoes-filme">
+                <h2 id="detalheNome"></h2>
+                <p><strong>Categoria:</strong> <span id="detalheCategoria"></span></p>
+                <p><strong>Classificação:</strong> <span id="detalheClassificacao"></span></p>
+                <p><strong>Ano:</strong> <span id="detalheAno"></span></p>
+                <p><strong>Preço:</strong> <span id="detalhePreco"></span></p>
+                <h3>Sinopse</h3>
+                <p id="detalheSinopse"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Locadora SOD <br>
+        Proprietários: Matheus Leal e Pedro Mateus
+    </footer>
+</body>
+</html>
